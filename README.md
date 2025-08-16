@@ -1,23 +1,22 @@
 # 📘 Book Catalog API with Authentication
 
-[cite_start]This project is a RESTful API developed for a backend module test. [cite: 27] [cite_start]The API allows users to register and log in to receive a JWT for authentication. [cite: 4] [cite_start]Authenticated users can perform full CRUD (Create, Read, Update, Delete) operations on a collection of books, while public routes are available for viewing books. [cite: 4]
+This project is a RESTful API developed for a backend module test.The API allows users to register and log in to receive a JWT for authentication. Authenticated users can perform full CRUD (Create, Read, Update, Delete) operations on a collection of books, while public routes are available for viewing books.
 
 ## 🎯 Objective
 
 The primary objective is to develop a RESTful API with the following capabilities:
-* [cite_start]Register and log in users using JWT-based authentication. [cite: 4]
-* [cite_start]Perform full CRUD operations on books. [cite: 4]
-* [cite_start]Secure the routes for creating, updating, and deleting books using JWT. [cite: 4]
-
+* Register and log in users using JWT-based authentication. 
+* Perform full CRUD operations on books.
+* Secure the routes for creating, updating, and deleting books using JWT.
 ---
 
 ## 🧱 Tech Stack
 
 The core technologies used in this project are:
-* [cite_start]**Backend**: Node.js, Express [cite: 6]
-* [cite_start]**Database**: MongoDB with Mongoose [cite: 6]
-* [cite_start]**Authentication**: JSON Web Tokens (JWT) [cite: 6]
-* [cite_start]**Password Hashing**: bcrypt [cite: 6]
+* **Backend**: Node.js, Express
+* **Database**: MongoDB with Mongoose
+* **Authentication**: JSON Web Tokens (JWT)
+* **Password Hashing**: bcrypt
 
 ---
 
@@ -63,7 +62,7 @@ You'll need [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com
 
 ## 🧪 API Endpoints
 
-[cite_start]The API provides the following endpoints. [cite: 18]
+The API provides the following endpoints.
 
 | Method | Endpoint              | Auth Required | Description                                  |
 | :----- | :-------------------- | :------------ | :------------------------------------------- |
@@ -77,4 +76,4 @@ You'll need [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com
 
 ### Testing with Postman
 
-[cite_start]This project is fully testable using Postman. [cite: 8] [cite_start]A Postman collection and environment are included in the project files to help you test all the API endpoints. [cite: 30, 76, 77] [cite_start]You can follow the `Steps to Setup Postman.docx` guide to import and use them. [cite: 72]
+This project is fully testable using Postman. A Postman collection and environment are included in the project files to help you test all the API endpoints.You can follow the `Steps to Setup Postman.docx` guide to import and use them.
