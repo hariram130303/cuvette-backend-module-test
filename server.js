@@ -13,6 +13,10 @@ const app = express();
 // Init Middleware to accept JSON data
 app.use(express.json());
 
+// Welcome route
+app.get('/', (req, res) => {
+  res.json({ message: 'Welcome to the Book Catalog API!' });
+});
 // Define Routes
 app.use('/api/users', require('./routes/userRoutes'));
 app.use('/api/books', require('./routes/bookRoutes'));
